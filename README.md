@@ -7,7 +7,7 @@
 
   <br/><br/>
 
-  <!-- 2. Orta Kartlar (Markdown İkon ve Rozet Yapısı) -->
+  <!-- 2. Orta Kartlar (Portfolyo ve Projeler) -->
   <a href="https://yusuf.leng.tr" target="_blank">
     <img src="https://img.shields.io/badge/⚡_PORTFOLYO_&_HUB:_yusuf.leng.tr-1e1e1c?style=for-the-badge&logoColor=white&labelColor=e0533c&color=1e1e1c" width="49%" alt="Hub" />
   </a>
@@ -17,7 +17,7 @@
 
   <br/><br/>
 
-  <!-- 3. Sosyal Medya ve Bağlantı Kartı -->
+  <!-- 3. Sosyal Medya ve Bağlantılar -->
   <p align="center">
     <a href="https://github.com/yusufertek" target="_blank">
       <img src="https://img.shields.io/badge/GitHub-@yusufertek-1e1e1c?style=for-the-badge&logo=github&logoColor=white&labelColor=252523" alt="GitHub" />
