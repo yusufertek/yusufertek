@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" width="100%" height="100%">
+  <defs>
+    <!-- Üst Kırmızı/Mercan Duyuru Çubuğu Gradyanı -->
+    <linearGradient id="coralGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e0533c" />
+      <stop offset="100%" stop-color="#c8412b" />
+    </linearGradient>
+
+    <!-- Sağ Kart Hafif Turuncu Işıma -->
+    <radialGradient id="hubGlow" cx="90%" cy="10%" r="70%">
+      <stop offset="0%" stop-color="#e0533c" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#1e1e1c" stop-opacity="1" />
+    </radialGradient>
+
+    <!-- Alt Geniş Banner Gradyanı -->
+    <linearGradient id="bannerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#27302c" />
+      <stop offset="50%" stop-color="#1b1c1a" />
+      <stop offset="100%" stop-color="#141413" />
+    </linearGradient>
+  </defs>
+
+  <!-- ANA ARKA PLAN -->
+  <rect width="800" height="460" rx="26" fill="#141413" stroke="#262624" stroke-width="2" />
+
+  <!-- ================= 1. ÜST BAR ================= -->
+  <!-- Sol Mercan Duyuru Pill -->
+  <rect x="22" y="20" width="490" height="36" rx="18" fill="url(#coralGrad)" />
+  <circle cx="42" cy="38" r="4" fill="#ffffff" />
+  <text x="56" y="43" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="13" font-weight="600">
+    Tüm güncel projelerim ve bağlantılarım yusuf.leng.tr adresinde
+  </text>
+
+  <!-- Sağ Profil Pill -->
+  <rect x="578" y="20" width="200" height="36" rx="18" fill="#1e1e1c" stroke="#2c2c2a" stroke-width="1" />
+  <text x="600" y="43" fill="#f2f2f0" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="13" font-weight="600">
+    Yusuf Ertek <tspan fill="#8e8d8a" font-weight="400">• Comp. Eng.</tspan>
+  </text>
+
+  <!-- ================= 2. ORTA BENTO KARTLAR ================= -->
+  <!-- SOL KART: SOSYAL MEDYA -->
+  <rect x="22" y="72" width="410" height="205" rx="22" fill="#1e1e1c" stroke="#2c2c2a" stroke-width="1" />
+  
+  <text x="42" y="102" fill="#f2f2f0" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="16" font-weight="700">
+    Sosyal Medya
+  </text>
+  
+  <rect x="155" y="86" width="54" height="22" rx="11" fill="#33241b" />
+  <text x="169" y="101" fill="#d97736" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="11" font-weight="600">
+    Aktif
+  </text>
+
+  <!-- Liste 1: GitHub -->
+  <rect x="42" y="118" width="370" height="32" rx="9" fill="#252523" />
+  <circle cx="58" cy="134" r="4" fill="#d97736" />
+  <text x="72" y="139" fill="#f2f2f0" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="13" font-weight="500">
+    GitHub
+  </text>
+  <text x="325" y="139" fill="#8e8d8a" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="12">
+    @yusufertek
+  </text>
+
+  <!-- Liste 2: LinkedIn -->
+  <rect x="42" y="156" width="370" height="32" rx="9" fill="#252523" />
+  <circle cx="58" cy="172" r="4" fill="#d97736" />
+  <text x="72" y="177" fill="#f2f2f0" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="13" font-weight="500">
+    LinkedIn
+  </text>
+  <text x="318" y="177" fill="#8e8d8a" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="12">
+    in/yusufertek
+  </text>
+
+  <!-- Liste 3: Instagram -->
+  <rect x="42" y="194" width="370" height="32" rx="9" fill="#252523" />
+  <circle cx="58" cy="210" r="4" fill="#d97736" />
+  <text x="72" y="215" fill="#f2f2f0" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="13" font-weight="500">
+    Instagram
+  </text>
+  <text x="325" y="215" fill="#8e8d8a" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="12">
+    @yusufertek
+  </text>
+
+  <!-- Sol Kart Alt Not -->
+  <text x="42" y="258" fill="#f2f2f0" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="11" font-weight="700">
+    ANK <tspan fill="#8e8d8a" font-weight="400">• Türkiye</tspan>
+  </text>
+
+  <!-- SAĞ KART: PORTFOLYO & HUB -->
+  <rect x="448" y="72" width="330" height="205" rx="22" fill="url(#hubGlow)" stroke="#2c2c2a" stroke-width="1" />
+  
+  <rect x="468" y="88" width="104" height="22" rx="11" fill="#33241b" />
+  <text x="480" y="103" fill="#d97736" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="11" font-weight="600">
+    Portfolyo & Hub
+  </text>
+
+  <!-- Sağ Üst Yuvarlak Ok İkonu -->
+  <circle cx="744" cy="99" r="14" fill="#e0533c" />
+  <text x="738" y="104" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="14" font-weight="700">
+    ↗
+  </text>
+
+  <!-- Sağ Kart Orta Metinler -->
+  <text x="468" y="142" fill="#8e8d8a" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="11" font-weight="600" letter-spacing="0.8">
+    KİŞİSEL BAĞLANTI MERKEZİ
+  </text>
+  <text x="468" y="172" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="26" font-weight="800">
+    yusuf.leng.tr
+  </text>
+  <text x="468" y="198" fill="#8e8d8a" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="12.5">
+    Geliştirdiğim web, mobil projeler ve tüm
+  </text>
+  <text x="468" y="216" fill="#8e8d8a" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="12.5">
+    sosyal ağlarıma tek noktadan ulaşın.
+  </text>
+
+  <!-- Sağ Kart Alt Not -->
+  <text x="468" y="258" fill="#f2f2f0" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="11" font-weight="700">
+    LENG <tspan fill="#8e8d8a" font-weight="400">altyapısı ile çalışır</tspan>
+  </text>
+
+  <!-- ================= 3. ALT GENİŞ BANNER ================= -->
+  <rect x="22" y="293" width="756" height="125" rx="22" fill="url(#bannerGrad)" stroke="#2c2c2a" stroke-width="1" />
+
+  <circle cx="48" cy="335" r="4" fill="#e0533c" />
+  <text x="60" y="339" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1">
+    PROJELER & ÇALIŞMALAR
+  </text>
+
+  <text x="44" y="369" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="22" font-weight="800">
+    Geliştirdiğim Projeleri İnceleyin
+  </text>
+
+  <text x="44" y="393" fill="#a09f9c" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="13">
+    Web platformları, mobil uygulamalar ve açık kaynak çalışmalarımın detaylarını görmek için tıklayın →
+  </text>
+
+  <!-- ================= 4. ALT SLIDER NOKTALARI ================= -->
+  <rect x="378" y="434" width="22" height="6" rx="3" fill="#d97736" />
+  <circle cx="409" cy="437" r="3" fill="#333330" />
+  <circle cx="421" cy="437" r="3" fill="#333330" />
+</svg>
